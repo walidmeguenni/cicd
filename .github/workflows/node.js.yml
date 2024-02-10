@@ -78,8 +78,7 @@ jobs:
             -----END RSA PRIVATE KEY-----
           port: 4173
           script: |
-            cd /
+            cd /home/nojoomserver
             git pull origin main
             npm install
             npm run build
-            
