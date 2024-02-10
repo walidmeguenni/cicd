@@ -80,7 +80,6 @@ jobs:
           script: |
             cd /home/nojoomserver
             cd cicd
-            git checkout main
             git pull origin main
             npm install
             npm run build
