@@ -81,7 +81,7 @@ jobs:
             cd /home/nojoomserver
             git clone https://github.com/walidmeguenni/cicd.git
             cd cicd
-            git ckeckout main
+            git checkout main
             git pull origin main
             npm install
             npm run build
