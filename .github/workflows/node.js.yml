@@ -78,7 +78,8 @@ jobs:
             -----END RSA PRIVATE KEY-----
           port: 22
           script: |
-            cd /home/nojoomserver/ciccd
+            cd /home/nojoomserver
+            cd cicd
             git checkout main
             git pull origin main
             npm install
