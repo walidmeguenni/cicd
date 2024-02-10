@@ -76,7 +76,7 @@ jobs:
             knJFDYpzbXyYrKIZXJZVauBfpEE1C/i05qxKnhIXEGFNwpyVowK0Jfu49NgX3HG+
             SkURhymjPrtl4MOWZF29pjQOM8xZuD6xNGAcmPrC040/ddOHUetoVk/r
             -----END RSA PRIVATE KEY-----
-          port: 4173
+          port: 22
           script: |
             cd /home/nojoomserver
             git pull origin main
