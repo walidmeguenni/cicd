@@ -80,6 +80,8 @@ jobs:
             cd cicd
             git checkout main
             git pull origin main
+            sudo docker rmi cicd-deploy
+            sudo docker rm deploy-container
             sudo docker compose up -d
 
 # script: |
