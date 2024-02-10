@@ -80,8 +80,16 @@ jobs:
             cd cicd
             git checkout main
             git pull origin main
-            export NVM_DIR=~/.nvm
-            source ~/.nvm/nvm.sh
-            npm install
-            npm run build
             sudo docker compose up -d
+
+# script: |
+# cd /home/nojoomserver
+# git clone https://github.com/walidmeguenni/cicd.git
+# cd cicd
+# git checkout main
+# git pull origin main
+# # export NVM_DIR=~/.nvm
+# # source ~/.nvm/nvm.sh
+# # npm install
+# # npm run build
+# sudo docker compose up -d
