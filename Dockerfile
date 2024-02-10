@@ -8,8 +8,6 @@ RUN npm install
 
 COPY . .
 
-RUN npm build
-
 EXPOSE 4173
 
 CMD ["npm", "run", "preview"]
