@@ -1,13 +1,13 @@
 version: '3.8'
 
 services:
-  nojoom:
-    container_name: nojoom-cleint
+  deploy:
+    container_name: deploy-container
     build:
       context: .
       dockerfile: ./Dockerfile
     ports:
-      - '4174:4173'
+      - '4173:4173'
     volumes:
       - .:/app
       - /app/node_modules  
